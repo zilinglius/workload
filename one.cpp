@@ -5,15 +5,13 @@
 #include <random>
 #include <unistd.h>
 
-#define MEMORY_SIZE 100000000
-
-int main() {
+int main(int argc, char* args[]) {
 
     std::cout<<"Here goes the short running workload..."<<std::endl;
 
     std::vector<int> datas;
 
-    for(int nIndex = 0; nIndex < MEMORY_SIZE; nIndex ++) {
+    for(int nIndex = 0; nIndex < atoi(args[1]); nIndex ++) {
         datas.push_back(nIndex);
     }
 
