@@ -5,7 +5,7 @@
 #include <random>
 #include <unistd.h>
 
-#define MEMORY_SIZE 10000000
+#define MEMORY_SIZE 100000000
 
 int main() {
 
