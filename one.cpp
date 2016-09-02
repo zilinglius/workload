@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <chono>
+#include <chrono>
 #include <random>
 #include <unistd.h>
 
