@@ -26,4 +26,5 @@ int main(int argc, char* args[]) {
 
         nCount--;
     }
+    std::cout<<"exited..."<<endl;
 }
