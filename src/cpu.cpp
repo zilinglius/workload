@@ -26,5 +26,5 @@ int main(int argc, char* args[]) {
 
         nCount--;
     }
-    std::cout<<"workload has exited..."<<std::endl;
+    std::cout<<"Workload has exited..."<<std::endl;
 }
