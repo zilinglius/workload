@@ -23,5 +23,5 @@ int main(int argc, char* args[]) {
 
     sleep(5);
 
-    std::cout<<"The application has exited..."<<std::endl;
+    std::cout<<"The application has exited......"<<std::endl;
 }
